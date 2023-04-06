@@ -1,0 +1,72 @@
+---
+import Container from "./Container.astro"
+
+---
+
+<div class="relative" id="home">
+    <div aria-hidden="true" class="absolute inset-0 grid grid-cols-2 -space-x-52 opacity-40 dark:opacity-20">
+      <div class="blur-[106px] h-56 bg-gradient-to-b from-teal-300 to-indigo-500"></div>
+      <div class="blur-[106px] h-32 bg-gradient-to-b from-teal-300 to-lime-500"></div>
+    </div>
+    <Container>
+        <div class="relative pt-36 ml-auto">
+            <div class="lg:w-2/3 text-center mx-auto">
+                <h1 class="text-gray-900 dark:text-white font-bold text-5xl md:text-6xl xl:text-7xl">Introduciendo el futuro hacia la <span class="text-emerald-600 dark:text-white">tecnología.</span></h1>
+                <p class="mt-8 text-gray-700 dark:text-gray-300">El tiempo avanza, el mundo cambia. La tecnología, solo progresa sin limite alguno. Desde Lorem Tech, nos encargamos de demostrartelo.</p>
+                <div class="mt-16 flex flex-wrap justify-center gap-y-4 gap-x-6">
+                    <a
+                      href="#"
+                      class="relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:bg-emerald-700 before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
+                    >
+                      <span class="relative text-base font-semibold text-white"
+                        >Comienza ahora mismo</span
+                      >
+                    </a>
+                    <a
+                      href="#"
+                      class="relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:border before:border-transparent before:bg-primary/10 before:bg-gradient-to-b before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 dark:before:border-gray-700 dark:before:bg-gray-800 sm:w-max"
+                    >
+                      <span
+                        class="relative text-base font-semibold text-emerald-700 dark:text-white"
+                        >Informate</span
+                      >
+                    </a>
+                </div>
+                <div class="hidden py-8 mt-16 border-y border-gray-100 dark:border-gray-800 sm:flex justify-between">
+                    <div class="text-left">
+                        <h6 class="text-lg font-semibold text-gray-700 dark:text-white">Precios realmente cómodos</h6>
+                        <p class="mt-2 pr-4 text-gray-500">Calidad y excelencia aseguradas </p>
+                    </div>
+                    <div class="text-left">
+                        <h6 class="text-lg font-semibold text-gray-700 dark:text-white">Productos más veloces del mercado</h6>
+                        <p class="mt-2 pr-8 text-gray-500">Componentes de última tecnología</p>
+                    </div>
+                    <div class="text-left">
+                        <h6 class="text-lg font-semibold text-gray-700 dark:text-white">Aclamados por la gente</h6>
+                        <p class="mt-2 text-gray-500">Más de 1 millón de usuarios confian en nuestros productos</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-12 grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6">
+                <div class="p-4 flex align-middle grayscale transition duration-200 hover:grayscale-0">
+                    <img src="./images/clients/mwindows.svg" class="h-auto w-auto mx-auto" loading="lazy" alt="client logo" width="" height="" />
+                  </div>
+                <div class="p-4 flex align-middle grayscale transition duration-200 hover:grayscale-0">
+                  <img src="./images/clients/instagram.svg" class="h-auto w-auto mx-auto" loading="lazy" alt="client logo" width="" height="" />
+                </div>
+                <div class="p-4 flex align-middle grayscale transition duration-200 hover:grayscale-0">
+                  <img src="./images/clients/discord.svg" class="h-auto w-auto m-auto" loading="lazy" alt="client logo" width="" height="" />
+                </div>
+                <div class="p-4 flex align-middle grayscale transition duration-200 hover:grayscale-0">
+                    <img src="./images/clients/xboxone.svg" class="h-auto w-auto mx-auto" loading="lazy" alt="client logo" width="" height="" />
+                  </div>
+                  <div class="p-4 flex align-middle grayscale transition duration-200 hover:grayscale-0">
+                    <img src="./images/clients/spacex.svg" class="h-auto w-auto m-auto" loading="lazy" alt="client logo" width="" height="" />
+                  </div>
+                <div class="p-4 flex  align-middle grayscale transition duration-200 hover:grayscale-0">
+                    <img src="./images/clients/google-cloud.svg" class="h-auto w-auto mx-auto" loading="lazy" alt="client logo" width="" height="" />
+                </div>
+              </div>
+        </div>
+    </Container>
+</div>
